@@ -1,15 +1,16 @@
 <template>
   <div id="app">
+    <custom-table/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CustomTable from './components/CustomTable.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    CustomTable
   }
 }
 </script>
