@@ -15,6 +15,8 @@ export default {
 </script>
 
 <style>
+  @import "../node_modules/ag-grid-community/dist/styles/ag-theme-balham.css";
+  @import "../node_modules/ag-grid-community/dist/styles/ag-grid.css";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
